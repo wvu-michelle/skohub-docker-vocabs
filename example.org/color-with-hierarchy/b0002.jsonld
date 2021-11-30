@@ -20,6 +20,12 @@
       "prefLabel": {
         "en": "Dark green"
       }
+    },
+    {
+      "id": "https://example.org/color-with-hierarchy/b0005",
+      "prefLabel": {
+        "en": "Forest green"
+      }
     }
   ],
   "inScheme": {
