@@ -17,7 +17,7 @@ color:b0001 a skos:Concept ;
 
 color:b0002 a skos:Concept ;
     skos:prefLabel "Green"@en, "Grün"@de ;
-    skos:narrower color:b0003, color:b0004 ;
+    skos:narrower color:b0003, color:b0004, color:b0005 ;
     skos:topConceptOf color: .
     
 color:b0003 a skos:Concept ;
@@ -27,5 +27,10 @@ color:b0003 a skos:Concept ;
 
 color:b0004 a skos:Concept ;
     skos:prefLabel "Dark green"@en ;
+    skos:broader color:b0002 ;
+    skos:inScheme color: .
+
+color:b0005 a skos:Concept ;
+    skos:prefLabel "Forest green"@en ;
     skos:broader color:b0002 ;
     skos:inScheme color: .
