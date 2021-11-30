@@ -11,6 +11,6 @@ plant: a skos:ConceptScheme ;
     skos:hasTopConcept plant:b0001 .
 
 plant:b0001 a skos:Concept ;
-    skos:prefLabel "Plants"@en ;
+    skos:prefLabel "Plant"@en ;
     skos:altLabel "Agriculture"@en ;
     skos:topConceptOf plant: .
