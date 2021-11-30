@@ -4,7 +4,7 @@
   "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Fplant-with-hierarchy%2Fb0001",
   "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Fplant-with-hierarchy%2Fb0001",
   "prefLabel": {
-    "en": "Plants"
+    "en": "Plant"
   },
   "altLabel": {
     "en": [
