@@ -1,36 +1,24 @@
 {
-  "id": "https://example.org/color-with-hierarchy/b0002",
+  "id": "https://example.org/color-with-hierarchy/b0004",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Fcolor-with-hierarchy%2Fb0002",
-  "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Fcolor-with-hierarchy%2Fb0002",
+  "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Fcolor-with-hierarchy%2Fb0004",
+  "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Fcolor-with-hierarchy%2Fb0004",
   "prefLabel": {
-    "en": "Green",
-    "de": "Grün"
+    "en": "Dark green"
   },
-  "narrower": [
-    {
-      "id": "https://example.org/color-with-hierarchy/b0003",
-      "prefLabel": {
-        "en": "Light green",
-        "de": "Hellgrün"
-      }
-    },
-    {
-      "id": "https://example.org/color-with-hierarchy/b0004",
-      "prefLabel": {
-        "en": "Dark green"
-      }
+  "broader": {
+    "id": "https://example.org/color-with-hierarchy/b0002",
+    "prefLabel": {
+      "en": "Green",
+      "de": "Grün"
     }
-  ],
+  },
   "inScheme": {
     "id": "https://example.org/color-with-hierarchy/",
     "title": {
       "en": "Color vocabulary with hierarchy",
       "de": "Farbvokabular mit Hierarchie"
     }
-  },
-  "topConceptOf": {
-    "id": "https://example.org/color-with-hierarchy/"
   },
   "@context": {
     "@version": 1.1,
